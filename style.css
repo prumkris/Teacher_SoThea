@@ -13,7 +13,7 @@ body {
 
 /* Navigation */
 #nav {
-    background-color: rgba(111, 111, 255, 0.705);
+    background-color: rgba(255, 188, 111, 0.705);
     height: 90px;
     width: 100%;
     top: 0;
@@ -260,4 +260,48 @@ button.show {
 button.show:hover {
     background-color: #5eacff;
 }
+h2 {
+    height: 100px;
+    max-height: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: goldenrod;
+    background-color: rebeccapurple;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;font-size: 25px;
+    animation: 2s rainbow infinite;
+}
 
+@keyframes rainbow {
+    0% {
+        color: red;
+        font-size: 25px;
+    }
+    25% {
+        color: blue;
+        font-size: 30px;
+    }
+    50% {
+        color: green;
+        font-size: 35px;
+    }
+    75% {
+        color: yellowgreen;
+        font-size: 30px;
+    }
+    100% {
+        color: goldenrod;
+        font-size: 25px;
+    }
+}
+
+
+
+.footer {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    background-color: #64acf8;
+    padding: 30px;
+}
