@@ -1,0 +1,106 @@
+/* ========== Responsive Design ========== */
+
+/* For large desktops (1440px and up) */
+@media (min-width: 1440px) {
+    #student_wrapper,
+    .nav_val {
+        max-width: 1400px;
+        margin: auto;
+    }
+    .ban_img {
+        height: 600px;
+    }
+}
+
+/* For standard laptops and desktops (1024px to 1439px) */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .nav_val {
+        padding: 0 40px;
+    }
+
+    .text {
+        font-size: 38px;
+    }
+
+    .msg_to {
+        font-size: 17px;
+    }
+    .ban_img {
+        height: 600px;
+    }
+}
+
+/* For tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nav_val {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .nav_img, .message, .Mathematics {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .student_container {
+        padding: 20px;
+        height: auto;
+    }
+
+    .img_name {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 90%;
+        font-size: 28px;
+        margin-top: 10%;
+    }
+
+    .msg_to {
+        font-size: 16px;
+    }
+}
+
+/* For mobile (up to 767px) */
+@media (max-width: 767px) {
+    .nav_val {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav_img img {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .text {
+        font-size: 24px;
+        padding: 10px;
+        margin-top: 10%;
+    }
+
+    .student_container {
+        padding: 15px;
+        height: auto;
+    }
+
+    .img_name {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .name h3 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .msg_to {
+        font-size: 15px;
+    }
+
+    button.show {
+        font-size: 14px;
+    }
+}
